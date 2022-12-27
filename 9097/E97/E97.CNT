@@ -1,0 +1,75 @@
+:Base E97.HLP
+:Title E97 Help
+:Index Tit Help=Title.hlp
+:Index Addr Help=E97.hlp
+О модели "Е97"=Title@E97.hlp
+Регистры процессора "Е97"=REGS@E97.HLP
+Память в "Е97"=ADDR_PROSTR@E97.HLP
+Порты ввода/вывода=PORTS@E97.HLP
+1 Структура команды
+Структура команды=STRUCT@E97.hlp
+Модификатор=MOD@E97.hlp
+Код операции=KOP@E97.hlp
+Первый операнд=OP1@E97.hlp
+Второй операнд=OP2@E97.hlp
+Форматы команд=FORMATS@E97.hlp
+1 Система команд процессора "Е97"
+Общая характеристика системы команд=SysCom@E97.HLP
+НОП=cmdNOP@E97.HLP
+Останов=cmdHLT@E97.HLP
+Перепись=cmdMOV@E97.HLP
+Сравнение=cmdCMP@E97.HLP
+2 Арифметические операции
+Сложение=cmdADD@E97.HLP
+Вычитание=cmdSUB@E97.HLP
+Умножение=cmdMUL@E97.HLP
+Деление=cmdDIV@E97.HLP
+2 Логические операции
+Логическое И=cmdAND@E97.HLP
+Логическое ИЛИ=cmdOR@E97.HLP
+Исключающее ИЛИ=cmdXOR@E97.HLP
+Логическое НЕ=cmdNOT@E97.HLP
+2 Команды ввода/вывода
+Чтение из порта=cmdIN@E97.HLP
+Запись в порт=cmdOUT@E97.HLP
+2 Переходы
+Абсолютный переход=cmdJMP@E97.HLP
+Относительный переход=cmdBR@E97.HLP
+2 Работа со стеком
+Запись в стек=cmdPUSH@E97.HLP
+Чтение из стека=cmdPOP@E97.HLP
+Сложение с SP=cmdADDSP@E97.HLP
+Вычитание из SP=cmdSUBSP@E97.HLP
+Запись PS в стек=cmdPUSHPS@E97.HLP
+Чтение PS из стека=cmdPOPPS@E97.HLP
+Запись в SP=cmdTOSP@E97.HLP
+Чтение из SP=cmdFRMSP@E97.HLP
+2 Сдвиги
+Сдвиг влево=cmdSL@E97.HLP
+Сдвиг вправо=cmdSR@E97.HLP
+Арифметический сдвиг вправо=cmdASR@E97.HLP
+2 Команды работы с Ri (только с версии 2.1)
+Запись в Ri=cmdTORI@E97.HLP
+Чтение из Ri=cmdFRMRI@E97.HLP
+Сравнение с Ri=cmdCMPRI@E97.HLP
+Специальные операции с Ri=cmdSPCRI@E97.HLP
+1 Методы адресации
+Что такое методы адресации=Address@E97.hlp
+2 Методы адресации в "Е97"
+Регистровая адресация=REG@E97.hlp
+Косвенная адресация=INDIR@E97.hlp
+Индексная адресация=IND@E97.hlp
+3 Адресация по программному счетчику
+Адресация по программному счетчику=PC_ADDR@E97.hlp
+Константа в команде=CONST@E97.hlp
+Адрес памяти в команде=MEM_ADDR@E97.hlp
+3 Модификатор в адресации
+Модификатор в адресации=MOD_IN_ADDR@E97.hlp
+Адресация слов и байтов=ADDR_BYTE@E97.hlp
+"Короткая константа"=SHCON@E97.hlp
+1 Справочник
+Таблица команд=TablCom@E97.HLP
+Таблица методов адресации=TablAddr@E97.HLP
+Таблица перевода чисел=BinTab@E97.HLP
+Таблица символов ASCII=ASCIITab@E97.HLP
+Содержимое ПЗУ=MyROM@E97.HLP

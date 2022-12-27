@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="eto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        4 задание
+    </title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Landing">
+        <div class="Landing__section Landing__section_blue Landing__section_image">
+            <div class="Section">
+                <div class="Section__slider">
+                    <div class="Slider__content">
+                        <div class="Slider__info">
+                            <div class="Slider__text">
+                                Опросник теста по математике
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Landing__section">
+            <div class="Section">
+                <div class="Section__title">
+                    Информация об опроснике
+                </div>
+                <div class="Section__content">
+                    <p class="Content__text">
+                        Данный опросник собирает инормацию об оценивании теста.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="Landing__section">
+            <div class="Section">
+                <div class="Section__title">
+                    Ваше имя
+                </div>
+                <div class="Section__content">
+                    <input type="text" id="name"/>
+                    </input>
+                </div>
+            </div>
+        </div>
+        <div class="Landing__section">
+            <div class="Section">
+                <div class="Section__title">
+                    Ваша фамилия
+                </div>
+                <div class="Section__content">
+                    <input type="text" id="surname"/>
+                    </input>
+                </div>
+            </div>
+        </div>
+        <div class="Landing__section">
+            <div class="Section">
+                <div class="Section__title">
+                    Ваш возраст
+                </div>
+                <div class="Section__content">
+                    <input type="text" id="age"/>
+                    </input>
+                </div>
+            </div>
+        </div>
+        <div class="Landing__section">
+            <div class="Section">
+                <div class="Section__title">
+                    Оцените пройденый тест от 0 до 10
+                </div>
+                <div class="Section__content">
+                    <label class="container">
+                        0
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        1
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        2
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        3
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        4
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        5
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        6
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        7
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        8
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        9
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                    <label class="container">
+                        10
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark">
+                        </span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <button class="knopka" onclick="ykazat();">
+            Отправить
+        </button>
+        <div class="Landing__section">
+            <div class="Section">
+                <div class="Section__title">
+                    <div id="otpravit">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Landing__section Landing__section_blue">
+            <div class="Section">
+                <div class="Section__header">
+                    <div class="Header__logotype">
+                        <img src="images/logotype_white.png"/>
+                    </div>
+                    <div class="Section__content">
+                        <div class="Content__map">
+                            <div class="Map__info">
+                                <div class="Info__item">
+                                    <div class="Item__title">
+                                        Телефон
+                                    </div>
+                                </div>
+                                <div class="Item__info">
+                                    +7 (908) 279-83-02
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Section__content">
+                        <div class="Content__map">
+                            <div class="Map__info">
+                                <div class="Info__item">
+                                    <div class="Item__title">
+                                        Почта
+                                    </div>
+                                </div>
+                                <div class="Item__info">
+                                    AS-369-369-369@yandex.ru
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Section__content">
+                        <div class="Content__map">
+                            <div class="Map__info">
+                                <div class="Info__item">
+                                    <div class="Item__title">
+                                        <a class="oprosnik" href="indext.html">
+                                            Тест
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function ykazat(){
+        blok_1 = 0;
+        blok_2 = 0;
+        blok_3 = 0;
+        per_1 = document.getElementById('name').value;
+        per_2 = document.getElementById('surname').value;
+        per_3 = document.getElementById('age').value;
+        if(blok_1 == per_1){
+            document.getElementById('otpravit').innerHTML = "Не указано имя";
+        } else if(blok_2 == per_2){
+            document.getElementById('otpravit').innerHTML = "Не указана фамилия";
+        } else if(blok_3 == per_3){
+            document.getElementById('otpravit').innerHTML = "Не указан возраст";
+        } else{
+            document.getElementById('otpravit').innerHTML = "Успешно отправлено";
+        }
+    }
+</script>
+</html>

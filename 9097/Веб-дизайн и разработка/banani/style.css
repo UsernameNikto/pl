@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    width: 1000px;
+    height: 750px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.kartochka {
+    height: 150px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    border: solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

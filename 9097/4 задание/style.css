@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+.Landing {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.Landing__section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Landing__section_blue {
+    background-color: rgb(155, 255, 155);
+    color: rgb(0, 0, 0);
+}
+
+.Section {
+    padding: 30px;
+    width: 940px;
+}
+
+.Section__title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Section__header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.Section__slider {
+    margin-top: 10px;
+}
+
+.Slider__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.Slider__text {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.Section__content {
+    margin-top: 10px;
+}
+
+.Content__text {
+    font-size: 20px;
+}
+
+.knopka {
+    border: none;
+    border-radius: 7px;
+    padding: 10px 25px;
+    background: rgb(77, 255, 77);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-left: 500px;
+    margin-right: 1250px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: rgb(0, 255, 0);
+}
+
+.container input:checked ~ .checkmark {
+    background-color: rgb(19, 102, 19);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: rgb(0, 255, 0);
+}
+
+.oprosnik {
+    margin-left: 24px;    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
